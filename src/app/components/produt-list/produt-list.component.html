@@ -1,0 +1,50 @@
+<div class="container">
+  <div class="title">
+    <h1 class="">Wall Paints</h1>
+  </div>
+  <div class="product-grid">
+    <ng-container *ngFor="let product of items">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.Name }}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            {{ product.Category }}
+          </h6>
+          <p class="card-text">{{ product.Desc }}</p>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <div class="title">
+    <h1 class="">Power Tools</h1>
+  </div>
+  <div class="product-grid">
+    <ng-container *ngFor="let product of items">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.Name }}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            {{ product.Category }}
+          </h6>
+          <p class="card-text">{{ product.Desc }}</p>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+  <div class="title">
+    <h1 class="">Spare Parts</h1>
+  </div>
+  <div class="product-grid">
+    <ng-container *ngFor="let product of items">
+      <div class="card" style="width: 18rem">
+        <div class="card-body">
+          <h5 class="card-title">{{ product.Name }}</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">
+            {{ product.Category }}
+          </h6>
+          <p class="card-text">{{ product.Desc }}</p>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+:host{
+  flex-grow: 1;
+  .carousel-inner{
+    display: flex;
+
+      img{
+        max-height: 100%;
+        object-fit: cover;
+      }
+  }
+}
